@@ -1,0 +1,98 @@
+/* @import url("../Fonts/Poppins/Poppins-BoldItalic.ttf");
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;600;900&display=swap'); */
+
+.excerciseInfo{
+    min-width:30%;
+    max-width: 45%;
+    min-height: 200px;
+    background-color: white;
+    height: fit-content;
+    margin: 10px 0px 10px 10px;
+    border-radius: 10px;
+    padding: 5px 10px;
+    box-shadow: 0px 0px 10px 2px rgba(151, 151, 151, 0.308);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    user-select: none;
+    -webkit-user-select: none;
+    -webkit-user-drag: none;
+    opacity: 0.6;
+}
+
+.activeDay{
+    background-color: white;
+    opacity: 1;
+    position: absolute;
+    
+}
+
+.excerciseInfo>h2{
+    text-align: center;
+    font-weight: 600;  
+    background-color: 	#800020;
+    box-shadow: 1px 10px 20px 1px gray;
+    width: 100%;
+    color: #fff;
+}
+
+.excerciseInfo>img{
+    width: 98%;
+}
+
+.excerciseInfo p{
+    color: gray;
+    font-weight: 300;
+    /* text-align: left; */
+    width: 98%;
+}
+
+/* For big screens */
+
+@media (min-width:600px){
+    .excerciseInfo{
+        min-height: 400px;
+        min-width: 47%;
+        max-width: 450px;
+    }
+    .excerciseInfo>img{
+        height: 250px;
+    }
+}
+
+/* for tabs */
+
+
+
+@media (min-width:450px) and (max-width:599px) {
+    .excerciseInfo{
+        min-width: 90%;
+        min-height: 250px;
+        max-height: 300px;
+        margin: 5px;
+        padding: 10px;
+    }
+    .excerciseInfo>img{
+        height: 155px;
+    }
+    .excerciseInfo h2{
+        font-size: 1.6em;
+        
+    }
+}
+
+
+@media (max-width:449px) {
+    .excerciseInfo{
+        max-width: 90%;
+        min-height: 250px;
+        max-height: 300px;
+        width: 90%;
+        margin: 5px;
+        padding: 10px;
+    }
+    .excerciseInfo h2{
+        font-size: 1.6em;
+    }
+}

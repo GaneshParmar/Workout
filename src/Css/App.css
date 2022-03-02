@@ -1,0 +1,46 @@
+/* @import url("../Fonts/Poppins/Poppins-BoldItalic.ttf");
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;600;900&display=swap'); */
+
+*{
+  /* font-family: 'Poppins'; */
+  padding: 0;
+  margin: 0px; 
+  font-family: 'Poppins', sans-serif;
+}
+.App{
+  padding: 0;
+  margin: 0;
+  background-color: rgba(0, 0, 0, 0.822);
+  overflow: hidden;
+}
+
+.App h1{
+  text-align: center;
+  color: white;
+  font-family: 'Poppins',sans-serif;
+  letter-spacing: 2px;
+} 
+
+.excerciseWrap{
+    width: 95%;
+    min-height: 300px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    /* flex-direction: column; */
+    position: relative;
+}
+
+.planInfo{
+  /* background-color: red; */
+  width: 100%;
+  color: #fff;
+  font-weight: 600;
+  margin: 10px 0px;
+  text-align: center;
+}
+
+.excerciseWrap .planInfo{
+  border-top: 1px solid rgba(128, 128, 128, 0.103);
+}
