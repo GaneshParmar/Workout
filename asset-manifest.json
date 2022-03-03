@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/GaneshParmar/Workout/static/css/main.554676c1.css",
+    "main.js": "/GaneshParmar/Workout/static/js/main.55b59edf.js",
+    "static/js/787.a86121d8.chunk.js": "/GaneshParmar/Workout/static/js/787.a86121d8.chunk.js",
+    "index.html": "/GaneshParmar/Workout/index.html",
+    "main.554676c1.css.map": "/GaneshParmar/Workout/static/css/main.554676c1.css.map",
+    "main.55b59edf.js.map": "/GaneshParmar/Workout/static/js/main.55b59edf.js.map",
+    "787.a86121d8.chunk.js.map": "/GaneshParmar/Workout/static/js/787.a86121d8.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.554676c1.css",
+    "static/js/main.55b59edf.js"
+  ]
+}
