@@ -1,5 +1,6 @@
 {
   "name": "rectapp",
+  "homepage": "https://github.com/GaneshParmar/Workout",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
