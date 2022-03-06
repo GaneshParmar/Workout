@@ -44,9 +44,10 @@ import './Css/App.css';
         let date=new Date();
         let day=date.getDay();
         let days=document.getElementsByClassName("excerciseInfo"); 
-        if(day==0){
+        if(day===0){
             day=7;
         }    
+        console.log(day)
         let todayDay=days[day];
        
     
