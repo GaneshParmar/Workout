@@ -44,8 +44,12 @@ import './Css/App.css';
         let date=new Date();
         let day=date.getDay();
         let days=document.getElementsByClassName("excerciseInfo"); 
-    
+        if(day==0){
+            day=7;
+        }    
         let todayDay=days[day];
+       
+    
         todayDay.classList.add("activeDay");  
       };
 
